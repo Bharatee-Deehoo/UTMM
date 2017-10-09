@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewpoint" content="width=device-width,initial-scale=1">
+<link rel=stylesheet href="jquery.mobile-1.4.5.css">
+<script src="jquery.js"> </script>
+<script src="jquery.mobile-1.4.5.js"> </script>
+
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css" />
+  <script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
+
+</head>
+<body>
+
+	<div data-role="page">
+	<div data-role="header">
+		<h1>STUDENT APPLICATION FORM</h1>
+
+		<div>
+			<label for="firstname">Firstname:</label>
+		<input type="text" name="txtfirstname" id="firstname" placeholder="Enter Firstname" value="">
+
+			
+		</div>
+		<div>
+			<label for="lastname">Lastname:</label>
+		<input type="text" name="txtlastname" id="lastname" placeholder="Enter Lastname" value="">
+
+			
+		</div>
+		<div>
+			<label for="phone">Phone Number:</label>
+		<input type="text" name="txtphone" id="phone" placeholder="Enter Phone Number" value="">
+
+			
+		</div>
+		<div>
+			<label for="email">EMail:</label>
+		<input type="text" name="txtemail" id="email" placeholder="Enter Email" value="">
+
+			
+		</div>
+		<div>
+			<label for="select-native-6">Gender:</label>
+<select name="select-native-2" id="gender">
+	<option value="Gender">Select Gender</option>
+    <option value="Female">Female</option>
+    <option value="Male">Male</option>
+    
+</select>
+		</div>
+		<div>
+			<label for="dob">Date Of Birth:</label>
+		<input type="text" name="txtdob" id="datepicker" placeholder="Enter Date of Birth" value="">
+
+
+		</div>
+<label for="select-choice-8" class="select">Select Three Programmes</label>
+<select name="select-choice-8" id="select-choice-8" multiple="multiple" data-native-menu="false" data-icon="grid" data-iconpos="left">
+    <option>Choose 3 Programmes:</option>
+    <optgroup label="SITE">
+        <option value="BSE">BSc Software Engineering</option>
+        <option value="BWT">BSc Web Technology</option>
+        <option value="BCAD">BSc Computer Aided Design</option>
+        <option value="BGD">BSc Graphic Design</option>
+    </optgroup>
+    <optgroup label="SMBF">
+        <option value="BFSWL">BSc Financial Service With Law</option>
+        <option value="BBAIF">BSc Banking and International Finance</option>
+        <option value="BEAM">BSc Economics and Management</option>
+    </optgroup>
+</select>
+
+		<div>
+		<fieldset data-role="controlgroup">
+    <legend>Terms and Condition:</legend>
+    <label for="cbterm">I agree</label>
+    <input type="checkbox" name="cbterm" id="cbterm">
+</fieldset>
+		</div>
+<div>
+
+<button class="ui-shadow ui-btn ui-corner-all" type="submit" id="submit-2">Submit</button>
+
+<button class="ui-btn ui-shadow">Cancel</button>
+</div>
+
+
+	</div>
+</div>
+		
+
+		
+
+</body>
+</html>

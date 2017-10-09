@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="jquery.mobile-1.4.5.css">
+	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+	<script src="jquery.js"></script>
+	<script src="jquery.mobile-1.4.5.js"></script>
+</head>
+<body>
+	<div data-role="header" data-position="fixed">
+		        <h1>University of Technology</h1>
+		<a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+		<a href="C:\xampp\htdocs\jQuery\utmPage.html" class="ui-link ui-btn-right" data-role="button" data-icon="star">Apply here</a>
+	</div>
+
+	<div data-role="panel" data-display="overlay" data-theme="b" id="nav-panel">
+		<ul data-role="listview" class="ui-listview-outer" data-inset="true">
+			<li><a href="#">Home</a></li>
+			  <li data-role="collapsible" data-iconpos="right" data-shadow="false" data-corners="false">
+				    <h2>Programmes</h2>
+				    <ul data-role="listview" data-shadow="false" data-inset="true" data-corners="false">
+					      <li><a href="#">Degree</a></li>
+					      <li><a href="#">Undergraduate</a></li>
+					      <li><a href="#">Postgraduate</a></li>
+				    </ul>
+			</li>
+			 <li data-role="collapsible" data-iconpos="right" data-shadow="false" data-corners="false">
+				    <h2>Schools</h2>
+				    <ul data-role="listview" data-shadow="false" data-inset="true" data-corners="false">
+					      <li><a href="#">SITE</a></li>
+					      <li><a href="#">SSDT</a></li>
+					      <li><a href="#">SBMF</a></li>
+					<li><a href="#">SHS</a></li>
+				    </ul>
+			</li>
+			 <li data-role="collapsible" data-iconpos="right" data-shadow="false" data-corners="false">
+				    <h2>Student Corner</h2>
+				    <ul data-role="listview" data-shadow="false" data-inset="true" data-corners="false">
+					      <li><a href="#">Semester Timetable</a></li>
+					      <li><a href="#">Exam Timetable</a></li>
+					      <li><a href="#">Student Affairs</a></li>
+					<li><a href="#">Results</a></li>
+					<li><a href="#">Fees</a></li>
+				    </ul>
+			</li>
+			 <li data-role="collapsible" data-iconpos="right" data-shadow="false" data-corners="false">
+				    <h2>Research</h2>
+				    <ul data-role="listview" data-shadow="false" data-inset="true" data-corners="false">
+					      <li><a href="#">Publications</a></li>
+					      <li><a href="#">Resource Centre</a></li>
+				    </ul>
+			</li>
+			<li><a href="#">About Us</a></li>
+		</ul>
+	</div>
+	<div>
+		<img src="C:\xampp\htdocs\jQuery\utm.jpg" style="width:900px;height:300px;margin-left:160px">
+	</div>
+
+	        <div role="main" class="ui-content">
+		<a href="#" onclick="window.location.reload()" data-icon="back" data-iconpos="notext" class="ui-link ui-btn-right ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all" data-role="button" role="button">Refresh</a>
+		        <h1>News</h1>
+		        <ul id="list" class="touch" data-role="listview" data-icon="false" data-split-icon="delete">
+			            <li>
+				                <a href="#news">
+					                    <h4>Application Deadline</h4>
+					                    <p class="ui-li-aside"><strong>26/07/17</strong></p>
+					<p>Last date for application is 8th August 2017.</p>
+				                </a>
+			            </li>
+			<li>
+				                <a href="#news">
+					                    <h4>Wifi Hotspot</h4>
+					                    <p class="ui-li-aside"><strong>03/08/17</strong></p>
+					<p>More than 18 wifi hotspots have been installed on the campus.</p>
+				                </a>
+			            </li>
+			<li>
+				                <a href="#news">
+					                    <h4>Semester Resumes</h4>
+					                    <p class="ui-li-aside"><strong>06/08/17</strong></p>
+					<p>The semester resumes on 14th August 2017.</p>
+				                </a>
+			            </li>
+		</ul>
+	</div>
+
+</body>
+</html>
